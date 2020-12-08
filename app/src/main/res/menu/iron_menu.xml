@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="fly_up"
+            android:id="@+id/fly_up"
+            android:icon="@drawable/ic_launcher_foreground">
+        </item> <item
+            android:title="landed"
+            android:id="@+id/landed"
+            android:icon="@drawable/ic_launcher_foreground">
+        </item>
+        <item
+            android:title="Move"
+            android:id="@+id/Move"
+            android:icon="@drawable/ic_launcher_foreground">
+        </item>
+        <item
+            android:title="StopMove"
+            android:id="@+id/StopWove"
+            android:icon="@drawable/ic_launcher_foreground">
+        </item>
+    </group>
+
+
+
+</menu>
